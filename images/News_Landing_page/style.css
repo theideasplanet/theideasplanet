@@ -1,0 +1,380 @@
+.search {
+    padding: 15px;
+}
+.search .form-group {
+    width: 100%;
+    height: 40px;
+    padding: 10px 10px 10px 50px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    background: #000;
+    color: #aaa;
+}
+.search .form-group:focus {
+    outline: none;
+}
+.search .fa {
+    position: absolute;
+    left: 35px;
+    top: 28px;
+    font-size: 16px;
+    color: #777;
+}
+
+/****************************** left sidebar **********************************/
+.left-sidebar{
+    padding: 15px;
+    border-right: 1px solid #ccc;
+    position: fixed;
+    width: 16.666667%;
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+/*
+    height: 89%;
+    overflow: auto;    
+*/
+}
+.left-sidebar ul {
+    list-style-type: none;
+}
+.left-sidebar ul li a{
+    padding: 5px 10px;
+    color: #aaa;
+    display: block;
+}
+.left-sidebar ul li a:hover{
+    color: #aaa;
+    background: #fff;
+    border-radius: 20px;
+}
+.left-sidebar .fa{
+    color: #aaa;
+    width: 20px;
+}
+
+/****************************** right sidebar **********************************/
+
+.right-sidebar{
+    padding: 0px 20px;
+}
+.right-sidebar .tags a{
+    color: #aaa;
+}
+.right-sidebar .tags .item{
+    padding: 8px;
+    background: #eee;
+    border-radius: 20px;
+    color: #777;
+    margin: 5px 2px;
+}
+.trending-sidebar{
+    list-style-type: none;
+}
+.trending-sidebar li{
+    padding-left: 20px;
+}
+.trending-sidebar li:before{
+    content: "\f105";
+    font-family: FontAwesome;
+    position: absolute;
+    left: 36px;
+    font-size: 16px;
+    margin-top: -4px;
+}
+
+
+/****************************** Center news feed **********************************/
+
+.news-feed{
+    padding: 0px 20px;
+}
+.news-feed .nav-pills .nav-link.active, .news-feed .nav-pills .show>.nav-link {
+    color: #333;
+    background-color: transparent;
+    font-weight: 600;
+}
+.news-feed a.nav-link{
+    color:#aaa;
+    font-weight: 600;
+}
+.news-feed .box-2 .form-group{
+    padding: 10px 20px;
+    height: 100px;
+}
+.attachments{
+    padding: 10px 0;
+}
+.news-feed .post-news #news .box-2:after, .post-news .box-2:before {
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+.news-feed .post-news #news.active .box-2:after, #news.active .box-2:before{
+	bottom: 92%;
+	left: 11%;
+}
+
+.news-feed .post-news #idea.active .box-2:after, #idea.active .box-2:before{
+	bottom: 92%;
+	left: 28%;
+}
+.news-feed .post-news .box-2:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-bottom-color: #fff;
+	border-width: 10px;
+	margin-left: -10px;
+}
+.news-feed .post-news .box-2:before {
+	border-color: rgba(255, 255, 255, 0);
+	border-bottom-color: #fff;
+	border-width: 16px;
+	margin-left: -16px;
+}
+.feed .profile-img img{
+    box-shadow: 0px 0px 15px #aaa;
+    border-radius: 50%;
+    width: 50px;
+}
+.feed .like-share{
+    padding: 10px 20px;
+    background: #f4f4f4;
+}
+
+/***************************** sign up ***********************************/
+
+.signup-bg{
+    background: url("../images/signup-bg.jpg")no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 548px;
+}
+@media (min-width: 576px){
+    #signup .modal-dialog {
+        max-width: 980px;
+    }
+}
+
+#signup .tab-content{
+    padding: 25px 35px;
+}
+
+#signup .modal-body{
+    padding: 0;
+}
+#signup .modal-content{
+    height: 550px;
+    border-radius: 40px
+}
+#signup .nav-pills .nav-link.active, #signup .nav-pills .show>.nav-link {
+    color: #333;
+    background-color: transparent;
+    border-bottom: 3px solid #333;
+    border-radius: 0;
+}
+#signup .nav-pills .nav-link:hover{
+    color: #333;
+}
+#signup .nav-pills .nav-link {
+    border-radius: 0;
+    color: #aaa;
+    font-weight: bold;
+}
+#signup .form-control{
+    height: calc(2.25rem + 10px);
+    font-size: 14px;
+    border: 1px solid #eee;
+    border-radius: 0;
+    margin-bottom: 10px;
+    font-weight: 600;
+    box-shadow: none;
+}
+#signup .form-control:focus{
+    box-shadow: 0px 0px 20px #ddd;
+}
+
+#signup #reg-tab{
+    height: 335px;
+    overflow: auto;
+}
+#signup #reg-tab .form-check-input{
+    width: auto;
+    display: inline;
+}
+.datepicker-dropdown {
+    top: 115px !important;
+    left: 0;
+}
+.input-group-addon{
+    padding: 15px 15px 0px 15px;
+    background: #eee;
+    height: 46px;
+}
+
+
+/************************************* News Portal Landing Page ****************************************/
+#news-portal{
+    background: #fff;
+}
+#news-portal header{
+  position: relative;
+  height: 600px;
+  overflow: hidden;
+}
+#news-portal #nav-top{
+  background-image: linear-gradient(to right, #2d2b43, #353980);
+}
+#news-portal .header-bg{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, #2d2b43, #353980);
+  transform: skewY(-6deg);
+  transform-origin: top left;
+}
+#news-portal .menu li a:hover, #news-portal .menu li a:focus, #news-portal .menu li a.active {
+    color: #58a0f9;
+    border-bottom: 3px solid #58a0f9;
+    font-weight: 600;
+}
+#news-portal .menu li a {
+    color: #fff;
+    font-weight: 400;
+}
+#news-portal .btn-white{
+    background: #fff;
+    padding: 10px 30px;
+    color: #372e7c;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+}
+#news-portal .banner-caption{
+    padding: 140px 20px;
+}
+#news-portal .banner-caption h1{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 100;
+}
+#news-portal .banner-caption h1 span{
+    text-transform: uppercase;
+    color: #28cae7;
+    font-size: 50px;
+    font-weight: 700;
+}
+#news-portal .btn-gradient{
+    border-radius: 50px;
+}
+#news-portal #benefits .box{
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0px 10px 20px #ddd;
+    height: 260px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 10px;
+}
+#news-portal #highlight{
+    background-image: linear-gradient(to right, #2d2b43, #353980);
+    padding: 40px 20px 120px 20px;
+}
+#news-portal #highlight h2 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+}
+#news-portal #highlight h2 span{
+    text-transform: uppercase;
+    color: #28cae7;
+    font-size: 35px;
+    font-weight: 700;
+}
+#news-portal .box-over{
+    background: #fff;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    margin-top: -100px;
+}
+#news-portal .box-over img{
+    border-radius: 20px;
+}
+#news-portal .box-over ul li{
+    color: #777;
+    padding: 10px 0px;
+}
+#news-portal .box-over ul {
+  list-style: none; /* Remove default bullets */
+}
+
+#news-portal .box-over ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #28cae7; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */ 
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+#news-portal #get-started{
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+    padding: 20px;
+}
+#news-portal .stripe{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, #2d2b43, #353980);
+  transform: skewY(4deg);
+  transform-origin: top right;
+    z-index: -1;    
+}
+#news-portal #get-started h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 40px;
+}
+#news-portal footer{
+    background-image: linear-gradient(to right, #2d2b43, #353980);
+    padding: 20px;
+}
+#news-portal .sign-in {
+    padding: 15px 10px;
+    width: 100%;
+    text-align: right;    
+}
+
+/**********************************************/
+
+@media (max-width: 576px){
+    .sign-in {
+    }
+    .navbar-toggler{
+        border: 1px solid #fff;
+    }
+    #news-portal #benefits .box{
+        height: auto;
+    }
+    #news-portal .feature-list{
+        padding: 20px;
+    }
+    #news-portal #get-started h2{
+        padding-top: 0px;
+    }
+}
