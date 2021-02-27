@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+
+/************************* Page CSS *****************************/
+body{
+    background: #ebf0f3;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;@import url('file:///C:\Users\KIRAN\Desktop\kiran\tip\Project\theideasplanet\css\style.css');
+}
+
+*{
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+.row{
+    padding: 0;
+    margin: 0;
+}
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto{
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    top: 0px;
+    left: 0px;
+}
+dl, ol, ul {
+    margin: 0;
+}
+
+/************************* Heading/Title CSS *****************************/
+
+h1, h2, h3, h4, h5, h6, p, .h1, .h2, .h3, .h4, .h5, .h6{
+    font-family: 'Open Sans', sans-serif;    
+    margin: 0;
+    padding: 0;
+}
+
+h1, .h1{font-size: 36px;}
+h2, .h2{font-size: 30px;}
+h3, .h3{font-size: 24px;}
+h4, .h4{font-size: 20px;}
+h5, .h5{font-size: 18px;}
+h6, .h6{font-size: 16px;}
+
+p{font-size: 13px;}
+
+a, a:hover, a:focus{
+    color: #58a0f9;
+    text-decoration: none;
+}
+
+/************************* Font Weights CSS *****************************/
+
+.light{font-weight: 300;}
+.regular{font-weight: 400;}
+.semi-bold{font-weight: 600;}
+.bold{font-weight: 700;}
+.extra-bold{font-weight: 800;}
+
+/************************* Colors CSS *****************************/
+
+.txt-white{color: #fff;}
+.txt-black{color: #333;}
+.txt-light-grey{color: #ccc;}
+.txt-grey{color: #aaa;}
+.txt-dark-grey{color: #777;}
+.txt-blue{color: #58a0f9;}
+.txt-teal{color: #16dae0;}
+.txt-red{color: #e20d10;}
+
+.bg-white{background: #fff;}
+.bg-black{background: #333;}
+.bg-light-grey{background: #f4f4f4;}
+.bg-grey{background: #ccc;}
+.bg-dark-grey{background: #aaa;}
+.bg-blue{background: #58a0f9;}
+.bg-blue-gradient{background-image: linear-gradient(142deg, #58a0f9, #16dae0);}
+
+/************************* Buttons CSS *****************************/
+
+.btn-blue {
+    background: #58a0f9;
+    padding: 13px 30px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    border: none;
+}
+
+.btn-gradient {
+    background-image: linear-gradient(142deg, #58a0f9, #16dae0);
+    padding: 3px 5px;
+    color: #fff;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 5px;
+    font-weight: 100;
+   height:5px;
+   width:5px;
+}
+
+.btn-blue:hover, .btn-blue:focus, .btn-gradient:hover, .btn-gradient:focus{
+    color: #fff;
+}
+
+/************************* so common CSS *****************************/
+
+.inline{
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.pos-rel{
+    position: relative;
+}
+
+.box-1{
+    background: #fff;
+    box-shadow: 0px 0px 15px #ccc;
+    padding: 20px 15px;
+    border-radius: 5px;
+}
+.box-2{
+    background: #fff;
+    box-shadow: 0px 0px 15px #ccc;
+    border-radius: 5px;
+}
+.box-inner{
+    padding: 20px;
+}
+#content{
+    margin-top: 60px;
+}
+
+/************************* Clear Spacing CSS *****************************/
+
+.clear{
+    clear: both;
+}
+.clear5{
+    clear: both;
+    height: 5px;
+}
+.clear10{
+    clear: both;
+    height: 10px;
+}
+.clear20{
+    clear: both;
+    height: 20px;
+}
+.clear30{
+    clear: both;
+    height: 30px;
+}
+.clear40{
+    clear: both;
+    height: 40px;
+}
+.clear80{
+    clear: both;
+    height: 80px;
+}
+.clear100{
+    clear: both;
+    height: 100px;
+}
+
+/*******************************************************************************/
+
+.fs10{font-size:10px;}
+.fs12 {
+    font-size: 12px;
+}
+.fs14 {
+    font-size: 14px;
+}
+.fs16 {
+    font-size: 16px;
+}
+.fs18 {
+    font-size: 18px;
+}
+.fs20 {
+    font-size: 20px;
+}
+
+
+/************************* Desktop Navigation CSS *****************************/
+
+.logo{
+    padding: 10px;
+}
+.logo img{
+    width: 50px;
+}
+.menu li{
+    padding: 25px 20px;
+}
+.menu li a{
+    color: #aaa;
+    padding: 5px 0px;
+    font-weight: 600;
+}
+.menu li a:hover, .menu li a:focus, .menu li a.active{
+    color: #fff;
+    border-bottom: 3px solid #58a0f9;
+}
+
+.sign-in {
+    padding: 13px 10px 0px 10px;
+}
+
+/************************* Bootstrap CSS *****************************/
+
+.form-group {
+    margin-bottom: 0;
+}
+input{
+    width: 100%;
+    display: block;
+}

@@ -1,0 +1,101 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="about-us.aspx.cs" Inherits="theideasplanet.about_us" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>About Us</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- --------------------CSS------------------------- -->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+
+            <header>
+        <nav id="nav-desktop" class="bg-black fixed-top">
+            <div class="row">
+                <div class="col-sm-1">
+                    <div class="logo">
+                        <a href="#"><img src="images/logo.png" class="img-responsive center-block"></a>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="menu">
+                        <ul class="inline">
+                            <li><a href="Home.aspx">Home</a></li>
+                            <li><a href="Home.aspx"">News</a></li>
+                           <%-- <li><a href="Home.aspx"">Trending Feed</a></li>
+                            <li><a href="Home.aspx"">Catagories</a></li>
+                            <li><a href="about-us.aspx" class="active">About Us</a></li>
+                            <li><a href="Contact-Us.aspx">Contact Us</a></li>--%>
+                        </ul>                    
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="search">
+                       <%-- <i class="fa fa-search"></i>--%>
+                       <%-- <input type="text" class="form-group" placeholder="Search for News, Categories, Ideas and much more...">--%>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="sign-in float-right">
+                         <asp:Button class="btn-gradient" ID="btnSignIn" runat="server"  Text="Sign In" OnClick="btnSignIn_Click" />                   
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    
+    <div class="container">
+        <div class="clear100"></div>
+        <div class="clear40"></div>
+        <div class="box-2">
+            <div class="box-inner">
+                <div class="row">
+                    <div class="clear40"></div>
+                    <h4 class="semi-bold txt-grey">About Us</h4>
+                    <div class="clear40"></div>
+                    <p>
+                        <b>This is the World Wide PlatForm To share your surrounding news or your Idea with the world.</b>
+                        <br><br>
+                        This site is created in the thought that people have to share their idea(s) or News to which they came across in their daily life, This site gives you to the freedom of News and Ideas sharing ,This sharing may help to those who having curiosity about whats going over glob and about news Ideas too, if you news or idea then share here by Login. It is for sharing any hi-tech idea also. You can do post News/Ideas with text only or if you have some picture of it then you can also share it.
+                        <br><br>
+
+                        We belive that Idea is one thing which came in the mind of every person, he/she may be scientist, Worker, common-man, anyone but problem is where to share it and how? Many Ideas we lost just because we do not found proper platform to share it, and it will be great if we are able to share ideas with known people, that's what actually Idea's Planet Do and we have same thoughts about News also News is the thing which should be flow from one person to another as original as possible.
+
+                        <br><br>
+
+                        <b>Make life more informative and easier of all by sharing News/Ideas.</b>
+                        <br><br>
+
+                        <b>You can give like to any post,If you like news/idea.</b>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+   
+    
+
+        </div>
+    </form>
+     <!-- --------------------JS------------------------- -->
+    <script src="js/bootstrap.min.js"></script>  
+    <script src="js/popper.min.js"></script>  
+    <script src="js/jquery-3.2.0.min.js"></script>  
+    <script src="js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
