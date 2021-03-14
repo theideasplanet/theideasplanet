@@ -1,0 +1,145 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+ 
+	<style>
+	a.required {
+    font-size: 15px;
+	color: white;
+}
+	</style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+                                          
+                <div class="form-group">
+   
+                 <div class="" id="signup">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+            
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="signup-bg"></div>    
+                </div>
+                <div class="col-sm-6" style="background-image: url('images/tip.png'); >
+                    <div class="box">
+                        <div class="box-inner">
+                            <h5 class="txt-blue semi-bold text-center">Here We Go</h5>
+                            <div class="clear20"></div>
+                            <ul class="nav nav-pills" role="tablist">
+                                <li class="nav-item">
+                                  
+                                </li>
+                                <li class="nav-item">
+                                    
+                                </li>
+                            </ul>
+                            <div class="tab-content">
+                                <div id="signin-tab" class="container tab-pane active"><br>
+                                <input type="text" class="form-control" id="usr" placeholder="Enter User Name">
+                                    <input type="password" class="form-control" id="pss" placeholder="Enter Password">
+   
+                
+
+                                    <div class="row clearfix">
+                                        
+                                    </div>
+                                    <div class="clear20"></div>
+                                    <div class="text-center">
+                                    <button type="button" class="btn-gradient" onclick="alert('We are reach to our 1000 Register user limit,We are improving our service to handle more users,We recorded your request We will send invite to you once our system accept more users,Thanks for visit,You may continue as viewer...');window.location.href = 'LandingPage.html';">Sign In</button> 
+                                     
+
+<p><a href="https://www.theideasplanet.com/privacypolicy.html" style="color:#ffffff;">Privacy Policy</a></p>
+                                    </div>
+                                </div>
+                                <div id="reg-tab" class="container tab-pane fade"><br>
+                                    <input type="text" class="form-control" id="name" placeholder="Enter First Name">
+                                    <input type="text" class="form-control" id="name" placeholder="Enter Last Name">
+                                    <input type="email" class="form-control" id="email" placeholder="Enter Email">
+                                    <input type="password" class="form-control" id="pss" placeholder="Enter Password">
+                                    <input type="password" class="form-control" id="pss" placeholder="Confirm Password">
+                                    <select class="form-control">
+                                      <option value="India">India</option>
+                                      <option value="USA">USA</option>
+                                      <option value="UK">UK</option>
+                                    </select>
+									Don't Get into this code, You won't understand how it will communicate with server. It's not only HTML dear...//K.S.W.
+                                    <input type="text" class="form-control" id="comment" placeholder="Enter Something About Yourself...">
+                                    <input type="text" class="form-control" id="comment" placeholder="Enter Security Key">
+                                    
+                                     <div class="input-group date">
+                                        <input type="text" class="form-control" id="js-date" placeholder="Select Date of Birth">
+                                        <div class="input-group-addon">
+                                            <span class="fa fa-th"></span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="clearfix">
+                                        <div class="form-check-inline">
+                                          <label class="form-check-label" for="radio1">
+                                            <input type="radio" class="form-check-input" id="radio1" name="optradio" value="Male" checked>Male
+                                          </label>
+                                        </div>
+                                        <div class="form-check-inline">
+                                          <label class="form-check-label" for="radio2">
+                                            <input type="radio" class="form-check-input" id="radio2" name="optradio" value="Female">Female
+                                          </label>
+                                        </div>
+                                    </div>
+                                    <div class="clear20"></div>
+                                    <div class="clearfix">
+                                        <div class="form-check-inline">
+                                          <label class="form-check-label">
+                                            <input type="checkbox" class="form-check-input" value="">I Agree with the terms & conditions.
+                                          </label>
+                                        </div>
+                                    </div>
+                                    <div class="clear20"></div>
+                                    <div class="text-center">
+                                        <button type="button" class="btn-gradient">Register</button> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+                
+      </div>
+    </div>
+  </div>
+    
+    <!-- --------------------JS------------------------- -->
+    <script src="js/bootstrap.min.js"></script>  
+    <script src="js/popper.min.js"></script>  
+    <script src="js/jquery-3.2.0.min.js"></script>  
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    
+    <script type="text/javascript">
+        $(document).ready(function() {
+    $('#js-date').datepicker();
+});
+    </script>
+
+    </form>
+</body>
+</html>
